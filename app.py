@@ -30,7 +30,7 @@ def get_db_secret(secret_name, region_name='us-west-1'):
 secret = get_db_secret('prod/rds/mydb')
 
 basedir = os.path.abspath(os.path.dirname(__file__)) # Get the directory of the current file
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{secret['username']}:{secret['password']}@{secret['host']}/{secret['dbname']}"
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:NewSecurePass123!@mydb.c16okmo081b8.us-west-1.rds.amazonaws.com:3306/todo_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)

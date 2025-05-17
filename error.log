@@ -1,0 +1,7 @@
+[2025-05-16 21:47:33 +0000] [64003] [INFO] Starting gunicorn 23.0.0
+[2025-05-16 21:47:33 +0000] [64003] [INFO] Listening at: http://0.0.0.0:8000 (64003)
+[2025-05-16 21:47:33 +0000] [64003] [INFO] Using worker: sync
+[2025-05-16 21:47:33 +0000] [64004] [INFO] Booting worker with pid: 64004
+[2025-05-16 21:47:57 +0000] [64003] [INFO] Handling signal: int
+[2025-05-16 21:47:57 +0000] [64004] [INFO] Worker exiting (pid: 64004)
+[2025-05-16 21:47:57 +0000] [64003] [INFO] Shutting down: Master
